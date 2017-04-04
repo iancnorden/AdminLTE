@@ -7,7 +7,7 @@
   "description": "Admin dashboard and control panel template",
   "main": [
     "index2.html",
-    "dist/css/AdminLTE.css",
+    "dist/css/dashboard.css",
     "dist/js/app.js",
     "build/less/AdminLTE.less"
   ],

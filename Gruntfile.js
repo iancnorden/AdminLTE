@@ -10,7 +10,7 @@ module.exports = function (grunt) {
       tasks: ["less", "uglify"]
     },
     // "less"-task configuration
-    // This task will compile all less files upon saving to create both AdminLTE.css and AdminLTE.min.css
+    // This task will compile all less files upon saving to create both dashboard.css and dashboard.min.css
     less: {
       // Development not compressed
       development: {
@@ -20,7 +20,7 @@ module.exports = function (grunt) {
         },
         files: {
           // compilation.css  :  source.less
-          "dist/css/AdminLTE.css": "build/less/AdminLTE.less",
+          "dist/css/dashboard.css": "build/less/AdminLTE.less",
           // AdminLTE without plugins
           "dist/css/alt/AdminLTE-without-plugins.css": "build/less/AdminLTE-without-plugins.less",
           // Separate plugins
@@ -51,7 +51,7 @@ module.exports = function (grunt) {
         },
         files: {
           // compilation.css  :  source.less
-          "dist/css/AdminLTE.min.css": "build/less/AdminLTE.less",
+          "dist/css/dashboard.min.css": "build/less/AdminLTE.less",
           // AdminLTE without plugins
           "dist/css/alt/AdminLTE-without-plugins.min.css": "build/less/AdminLTE-without-plugins.less",
           // Separate plugins
@@ -135,7 +135,7 @@ module.exports = function (grunt) {
         csslintrc: 'build/less/.csslintrc'
       },
       dist: [
-        'dist/css/AdminLTE.css'
+        'dist/css/dashboard.css'
       ]
     },
 
